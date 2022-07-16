@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.container2{
+    width: 350px;
+    height: 310px;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    background-color: white;
+    display: none;
+}
+
+.active{
+    width: 350px;
+    height: 310px;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    background-color: white;
+    display: block;
+}
+
+#new-note{
+    resize: none;
+    margin-top: 14%;
+}
+
+.btn-done{
+    position: absolute;
+    top: 0;
+    left: 87%;
+}
+
+.btn-close{
+    position: absolute;
+    top: 0;
+    left: 93.5%;
+}
+
+.container3{
+    width: 100%;
+    min-height: 721px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

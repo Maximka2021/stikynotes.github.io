@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href=".//notes.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    </head>
+    <body>  
+        <div class="main-container">
+            <div class="container1">
+                <button class = 'btn-create' onclick = 'newNote()'>Create Note</button>
+            </div>
+            <div class="container3"></div>
+            <div class="container2">
+                <button class = 'btn-close' onclick = 'closeFunc()'>❌</button>
+                <button class = 'btn-done'  onclick = 'createNote()'>✔️</button>
+                <textarea id="new-note" cols="45" rows="17" placeholder="Enter your note"></textarea>
+            </div>
+
+        </div>
+        <script src = './/notes.js'></script>
+    </body>
+</html>
